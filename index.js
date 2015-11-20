@@ -1,5 +1,6 @@
 var bitops = require('./lib/bitops');
 var utils = require('./lib/utils');
+var Buffer = require('buffer').Buffer
 
 var RESP = {};
 var CLIENT_KEY = 'Client Key';
